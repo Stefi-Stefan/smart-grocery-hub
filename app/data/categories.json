@@ -1,0 +1,273 @@
+[
+  {
+    "id": "fruit_veg",
+    "name": {
+      "en": "Fruit & Vegetables",
+      "nl": "Groenten & Fruit",
+      "de": "Obst & Gemüse"
+    },
+    "icon": "🥦"
+  },
+  {
+  "id": "grains",
+  "name": {
+    "en": "Grains",
+    "nl": "Granen",
+    "de": "Getreide"
+  },
+  "icon": "🌾",
+  "subcategories": [
+    {
+      "id": "bread",
+      "name": {
+        "en": "Bread",
+        "nl": "Brood",
+        "de": "Brot"
+      },
+      "icon": "🍞"
+    },
+    {
+      "id": "pastries",
+      "name": {
+        "en": "Pastries",
+        "nl": "Banket",
+        "de": "Gebäck"
+      },
+      "icon": "🥐"
+    },
+    {
+      "id": "pasta_noodles",
+      "name": {
+        "en": "Pasta / Noodles",
+        "nl": "Pasta / Noedels",
+        "de": "Nudeln"
+      },
+      "icon": "🍝"
+    }
+  ]
+},
+  {
+    "id": "dairy",
+    "name": {
+      "en": "Dairy",
+      "nl": "Zuivel",
+      "de": "Molkerei"
+    },
+    "icon": "🧀"
+  },
+  {
+    "id": "meat_fish",
+    "name": {
+      "en": "Meat & Fish",
+      "nl": "Vlees & Vis",
+      "de": "Fleisch & Fisch"
+    },
+    "icon": "🍖"
+  },
+  {
+    "id": "frozen",
+    "name": {
+      "en": "Frozen Food",
+      "nl": "Diepvries",
+      "de": "Tiefkühlkost"
+    },
+    "icon": "❄️",
+    "subcategories": [
+      {
+        "id": "frozen_meals",
+        "name": {
+          "en": "Ready Meals",
+          "nl": "Kant-en-klaar",
+          "de": "Fertiggerichte"
+        },
+        "icon": "🍱"
+      },
+      {
+        "id": "frozen_veg",
+        "name": {
+          "en": "Vegetables",
+          "nl": "Groenten",
+          "de": "Gemüse"
+        },
+        "icon": "🥬"
+      },
+      {
+        "id": "frozen_sweets",
+        "name": {
+          "en": "Desserts & Ice Cream",
+          "nl": "IJs & Desserts",
+          "de": "Eis & Desserts"
+        },
+        "icon": "🍨"
+      }
+    ]
+  },
+  {
+    "id": "drinks",
+    "name": {
+      "en": "Drinks",
+      "nl": "Dranken",
+      "de": "Getränke"
+    },
+    "icon": "🧃",
+    "subcategories": [
+      {
+        "id": "soft_drinks",
+        "name": {
+          "en": "Soft Drinks",
+          "nl": "Frisdranken",
+          "de": "Erfrischungsgetränke"
+        },
+        "icon": "🥤"
+      },
+      {
+        "id": "juices",
+        "name": {
+          "en": "Juices",
+          "nl": "Sappen",
+          "de": "Säfte"
+        },
+        "icon": "🧃"
+      },
+      {
+        "id": "alcohol",
+        "name": {
+          "en": "Alcohol",
+          "nl": "Alcohol",
+          "de": "Alkohol"
+        },
+        "icon": "🍷"
+      },
+      {
+        "id": "herbal_coffee",
+        "name": {
+          "en": "Herbal Teas & Coffee",
+          "nl": "Kruidenthee & Koffie",
+          "de": "Kräutertee & Kaffee"
+        },
+        "icon": "☕"
+      }
+    ]
+  },
+  {
+    "id": "snacks_sweets",
+    "name": {
+      "en": "Snacks & Sweets",
+      "nl": "Snacks & Snoep",
+      "de": "Snacks & Süßes"
+    },
+    "icon": "🍫",
+    "subcategories": [
+      {
+        "id": "chips",
+        "name": {
+          "en": "Chips",
+          "nl": "Chips",
+          "de": "Chips"
+        },
+        "icon": "🍟"
+      },
+      {
+        "id": "candy",
+        "name": {
+          "en": "Candy",
+          "nl": "Snoep",
+          "de": "Süßigkeiten"
+        },
+        "icon": "🍬"
+      },
+      {
+        "id": "chocolate",
+        "name": {
+          "en": "Chocolate",
+          "nl": "Chocolade",
+          "de": "Schokolade"
+        },
+        "icon": "🍫"
+      }
+    ]
+  },
+  {
+    "id": "pantry",
+    "name": {
+      "en": "Pantry Essentials",
+      "nl": "Basisproducten",
+      "de": "Vorratsschrank"
+    },
+    "icon": "🧂"
+  },
+  {
+    "id": "spices_condiments",
+    "name": {
+      "en": "Spices & Condiments",
+      "nl": "Kruiden & Sauzen",
+      "de": "Gewürze & Soßen"
+    },
+    "icon": "🌿"
+  },
+  {
+    "id": "spreads",
+    "name": {
+      "en": "Spreads",
+      "nl": "Smeersels",
+      "de": "Aufstriche"
+    },
+    "icon": "🥫"
+  },
+  {
+    "id": "health_foods",
+    "name": {
+      "en": "Health Foods & Supplements",
+      "nl": "Gezonde Voeding & Supplementen",
+      "de": "Gesunde Lebensmittel & Ergänzungen"
+    },
+    "icon": "💊"
+  },
+  {
+    "id": "cleaning",
+    "name": {
+      "en": "Cleaning Supplies",
+      "nl": "Schoonmaak",
+      "de": "Reinigungsmittel"
+    },
+    "icon": "🧽"
+  },
+  {
+    "id": "hygiene",
+    "name": {
+      "en": "Hygiene & Personal Care",
+      "nl": "Hygiëne & Toilet",
+      "de": "Körperpflege"
+    },
+    "icon": "🧼"
+  },
+  {
+    "id": "baby",
+    "name": {
+      "en": "Baby",
+      "nl": "Baby",
+      "de": "Baby"
+    },
+    "icon": "👶",
+    "visible_by_default": false
+  },
+  {
+    "id": "pets",
+    "name": {
+      "en": "Pets",
+      "nl": "Dierenvoeding",
+      "de": "Tierbedarf"
+    },
+    "icon": "🐶",
+    "visible_by_default": false
+  },
+  {
+    "id": "other",
+    "name": {
+      "en": "Other",
+      "nl": "Overige",
+      "de": "Sonstiges"
+    },
+    "icon": "🧺"
+  }
+]

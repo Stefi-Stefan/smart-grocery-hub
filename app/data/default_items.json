@@ -1,0 +1,977 @@
+[
+  {
+    "id": "apple",
+    "name": {"en": "Apple", "nl": "Appel", "de": "Apfel"},
+    "category_id": "fruit_veg",
+    "icon": "🍎"
+  },
+  {
+    "id": "banana",
+    "name": {"en": "Banana", "nl": "Banaan", "de": "Banane"},
+    "category_id": "fruit_veg",
+    "icon": "🍌"
+  },
+  {
+    "id": "orange",
+    "name": {"en": "Orange", "nl": "Sinaasappel", "de": "Orange"},
+    "category_id": "fruit_veg",
+    "icon": "🍊"
+  },
+  {
+    "id": "pear",
+    "name": {"en": "Pear", "nl": "Peer", "de": "Birne"},
+    "category_id": "fruit_veg",
+    "icon": "🍐"
+  },
+  {
+    "id": "grapes",
+    "name": {"en": "Grapes", "nl": "Druiven", "de": "Trauben"},
+    "category_id": "fruit_veg",
+    "icon": "🍇"
+  },
+  {
+    "id": "strawberry",
+    "name": {"en": "Strawberry", "nl": "Aardbei", "de": "Erdbeere"},
+    "category_id": "fruit_veg",
+    "icon": "🍓"
+  },
+  {
+    "id": "blueberry",
+    "name": {"en": "Blueberry", "nl": "Blauwe bes", "de": "Blaubeere"},
+    "category_id": "fruit_veg",
+    "icon": "🫐"
+  },
+  {
+    "id": "watermelon",
+    "name": {"en": "Watermelon", "nl": "Watermeloen", "de": "Wassermelone"},
+    "category_id": "fruit_veg",
+    "icon": "🍉"
+  },
+  {
+    "id": "pineapple",
+    "name": {"en": "Pineapple", "nl": "Ananas", "de": "Ananas"},
+    "category_id": "fruit_veg",
+    "icon": "🍍"
+  },
+  {
+    "id": "mango",
+    "name": {"en": "Mango", "nl": "Mango", "de": "Mango"},
+    "category_id": "fruit_veg",
+    "icon": "🥭"
+  },
+  {
+    "id": "carrot",
+    "name": {"en": "Carrot", "nl": "Wortel", "de": "Karotte"},
+    "category_id": "fruit_veg",
+    "icon": "🥕"
+  },
+  {
+    "id": "potato",
+    "name": {"en": "Potato", "nl": "Aardappel", "de": "Kartoffel"},
+    "category_id": "fruit_veg",
+    "icon": "🥔"
+  },
+  {
+    "id": "onion",
+    "name": {"en": "Onion", "nl": "Ui", "de": "Zwiebel"},
+    "category_id": "fruit_veg",
+    "icon": "🧅"
+  },
+  {
+    "id": "garlic",
+    "name": {"en": "Garlic", "nl": "Knoflook", "de": "Knoblauch"},
+    "category_id": "fruit_veg",
+    "icon": "🧄"
+  },
+  {
+    "id": "tomato",
+    "name": {"en": "Tomato", "nl": "Tomaat", "de": "Tomate"},
+    "category_id": "fruit_veg",
+    "icon": "🍅"
+  },
+  {
+    "id": "cucumber",
+    "name": {"en": "Cucumber", "nl": "Komkommer", "de": "Gurke"},
+    "category_id": "fruit_veg",
+    "icon": "🥒"
+  },
+  {
+    "id": "bell_pepper",
+    "name": {"en": "Bell Pepper", "nl": "Paprika", "de": "Paprika"},
+    "category_id": "fruit_veg",
+    "icon": "🫑"
+  },
+  {
+    "id": "broccoli",
+    "name": {"en": "Broccoli", "nl": "Broccoli", "de": "Brokkoli"},
+    "category_id": "fruit_veg",
+    "icon": "🥦"
+  },
+  {
+    "id": "lettuce",
+    "name": {"en": "Lettuce", "nl": "Sla", "de": "Kopfsalat"},
+    "category_id": "fruit_veg",
+    "icon": "🥬"
+  },
+  {
+    "id": "spinach",
+    "name": {"en": "Spinach", "nl": "Spinazie", "de": "Spinat"},
+    "category_id": "fruit_veg",
+    "icon": "🌿"
+  },
+  {
+    "id": "zucchini",
+    "name": {"en": "Zucchini", "nl": "Courgette", "de": "Zucchini"},
+    "category_id": "fruit_veg",
+    "icon": "🥒"
+  },
+  {
+    "id": "mushroom",
+    "name": {"en": "Mushroom", "nl": "Champignon", "de": "Champignon"},
+    "category_id": "fruit_veg",
+    "icon": "🍄"
+  },
+  {
+    "id": "cauliflower",
+    "name": {"en": "Cauliflower", "nl": "Bloemkool", "de": "Blumenkohl"},
+    "category_id": "fruit_veg",
+    "icon": "🥦"
+  },
+  {
+    "id": "celery",
+    "name": {"en": "Celery", "nl": "Selderij", "de": "Sellerie"},
+    "category_id": "fruit_veg",
+    "icon": "🥬"
+  },
+  {
+    "id": "peas",
+    "name": {"en": "Peas", "nl": "Erwten", "de": "Erbsen"},
+    "category_id": "fruit_veg",
+    "icon": "🟢"
+  },
+
+  {
+    "id": "white_bread",
+    "name": {"en": "White Bread", "nl": "Wit brood", "de": "Weißbrot"},
+    "category_id": "grains",
+    "subcategory_id": "bread",
+    "icon": "🍞"
+  },
+  {
+    "id": "whole_wheat_bread",
+    "name": {"en": "Whole Wheat Bread", "nl": "Volkorenbrood", "de": "Vollkornbrot"},
+    "category_id": "grains",
+    "subcategory_id": "bread",
+    "icon": "🍞"
+  },
+  {
+    "id": "rye_bread",
+    "name": {"en": "Rye Bread", "nl": "Roggebrood", "de": "Roggenbrot"},
+    "category_id": "grains",
+    "subcategory_id": "bread",
+    "icon": "🍞"
+  },
+  {
+    "id": "baguette",
+    "name": {"en": "Baguette", "nl": "Baguette", "de": "Baguette"},
+    "category_id": "grains",
+    "subcategory_id": "bread",
+    "icon": "🥖"
+  },
+  {
+    "id": "multigrain_bread",
+    "name": {"en": "Multigrain Bread", "nl": "Meergranenbrood", "de": "Mehrkornbrot"},
+    "category_id": "grains",
+    "subcategory_id": "bread",
+    "icon": "🍞"
+  },
+  {
+    "id": "bread_rolls",
+    "name": {"en": "Bread Rolls", "nl": "Broodjes", "de": "Brötchen"},
+    "category_id": "grains",
+    "subcategory_id": "bread",
+    "icon": "🥐"
+  },
+  {
+    "id": "bagels",
+    "name": {"en": "Bagels", "nl": "Bagels", "de": "Bagels"},
+    "category_id": "grains",
+    "subcategory_id": "bread",
+    "icon": "🥯"
+  },
+  {
+    "id": "pita_bread",
+    "name": {"en": "Pita Bread", "nl": "Pitabrood", "de": "Pitabrot"},
+    "category_id": "grains",
+    "subcategory_id": "bread",
+    "icon": "🥙"
+  },
+  {
+    "id": "sourdough",
+    "name": {"en": "Sourdough Bread", "nl": "Zuurdesembrood", "de": "Sauerteigbrot"},
+    "category_id": "grains",
+    "subcategory_id": "bread",
+    "icon": "🍞"
+  },
+  {
+    "id": "gluten_free_bread",
+    "name": {"en": "Gluten-Free Bread", "nl": "Glutenvrij brood", "de": "Glutenfreies Brot"},
+    "category_id": "grains",
+    "subcategory_id": "bread",
+    "icon": "🍞"
+  },
+
+  {
+    "id": "croissant",
+    "name": {"en": "Croissant", "nl": "Croissant", "de": "Croissant"},
+    "category_id": "grains",
+    "subcategory_id": "pastries",
+    "icon": "🥐"
+  },
+  {
+    "id": "danish_pastry",
+    "name": {"en": "Danish Pastry", "nl": "Deens gebak", "de": "Dänisches Gebäck"},
+    "category_id": "grains",
+    "subcategory_id": "pastries",
+    "icon": "🥐"
+  },
+  {
+    "id": "muffin",
+    "name": {"en": "Muffin", "nl": "Muffin", "de": "Muffin"},
+    "category_id": "grains",
+    "subcategory_id": "pastries",
+    "icon": "🧁"
+  },
+  {
+    "id": "pretzel",
+    "name": {"en": "Pretzel", "nl": "Pretzel", "de": "Brezel"},
+    "category_id": "grains",
+    "subcategory_id": "pastries",
+    "icon": "🥨"
+  },
+  {
+    "id": "cinnamon_roll",
+    "name": {"en": "Cinnamon Roll", "nl": "Kaneelbroodje", "de": "Zimtschnecke"},
+    "category_id": "grains",
+    "subcategory_id": "pastries",
+    "icon": "🍥"
+  },
+  {
+    "id": "donut",
+    "name": {"en": "Donut", "nl": "Donut", "de": "Donut"},
+    "category_id": "grains",
+    "subcategory_id": "pastries",
+    "icon": "🍩"
+  },
+  {
+    "id": "tart",
+    "name": {"en": "Tart", "nl": "Taart", "de": "Torte"},
+    "category_id": "grains",
+    "subcategory_id": "pastries",
+    "icon": "🥧"
+  },
+  {
+    "id": "strudel",
+    "name": {"en": "Strudel", "nl": "Strudel", "de": "Strudel"},
+    "category_id": "grains",
+    "subcategory_id": "pastries",
+    "icon": "🥧"
+  },
+  {
+    "id": "eclair",
+    "name": {"en": "Éclair", "nl": "Éclair", "de": "Éclair"},
+    "category_id": "grains",
+    "subcategory_id": "pastries",
+    "icon": "🍰"
+  },
+  {
+    "id": "biscuit",
+    "name": {"en": "Biscuit", "nl": "Biscuit", "de": "Keks"},
+    "category_id": "grains",
+    "subcategory_id": "pastries",
+    "icon": "🍪"
+  },
+
+  {
+    "id": "spaghetti",
+    "name": {"en": "Spaghetti", "nl": "Spaghetti", "de": "Spaghetti"},
+    "category_id": "grains",
+    "subcategory_id": "pasta_noodles",
+    "icon": "🍝"
+  },
+  {
+    "id": "penne",
+    "name": {"en": "Penne", "nl": "Penne", "de": "Penne"},
+    "category_id": "grains",
+    "subcategory_id": "pasta_noodles",
+    "icon": "🍝"
+  },
+  {
+    "id": "fusilli",
+    "name": {"en": "Fusilli", "nl": "Fusilli", "de": "Fusilli"},
+    "category_id": "grains",
+    "subcategory_id": "pasta_noodles",
+    "icon": "🍝"
+  },
+  {
+    "id": "lasagna_sheets",
+    "name": {"en": "Lasagna Sheets", "nl": "Lasagnebladen", "de": "Lasagneblätter"},
+    "category_id": "grains",
+    "subcategory_id": "pasta_noodles",
+    "icon": "🍝"
+  },
+  {
+    "id": "egg_noodles",
+    "name": {"en": "Egg Noodles", "nl": "Eiernoedels", "de": "Eiernudeln"},
+    "category_id": "grains",
+    "subcategory_id": "pasta_noodles",
+    "icon": "🍝"
+  },
+  {
+    "id": "rice_noodles",
+    "name": {"en": "Rice Noodles", "nl": "Rijstnoedels", "de": "Reisnudeln"},
+    "category_id": "grains",
+    "subcategory_id": "pasta_noodles",
+    "icon": "🍝"
+  },
+  {
+    "id": "udon",
+    "name": {"en": "Udon", "nl": "Udon", "de": "Udon"},
+    "category_id": "grains",
+    "subcategory_id": "pasta_noodles",
+    "icon": "🍜"
+  },
+  {
+    "id": "ramen",
+    "name": {"en": "Ramen", "nl": "Ramen", "de": "Ramen"},
+    "category_id": "grains",
+    "subcategory_id": "pasta_noodles",
+    "icon": "🍜"
+  },
+  {
+    "id": "macaroni",
+    "name": {"en": "Macaroni", "nl": "Macaroni", "de": "Makkaroni"},
+    "category_id": "grains",
+    "subcategory_id": "pasta_noodles",
+    "icon": "🍝"
+  },
+  {
+    "id": "vermicelli",
+    "name": {"en": "Vermicelli", "nl": "Vermicelli", "de": "Vermicelli"},
+    "category_id": "grains",
+    "subcategory_id": "pasta_noodles",
+    "icon": "🍝"
+  },
+  {
+    "id": "tagliatelle",
+    "name": {"en": "Tagliatelle", "nl": "Tagliatelle", "de": "Tagliatelle"},
+    "category_id": "grains",
+    "subcategory_id": "pasta_noodles",
+    "icon": "🍝"
+  },
+  {
+    "id": "tortellini",
+    "name": {"en": "Tortellini", "nl": "Tortellini", "de": "Tortellini"},
+    "category_id": "grains",
+    "subcategory_id": "pasta_noodles",
+    "icon": "🍝"
+  },
+  {
+    "id": "fettuccine",
+    "name": {"en": "Fettuccine", "nl": "Fettuccine", "de": "Fettuccine"},
+    "category_id": "grains",
+    "subcategory_id": "pasta_noodles",
+    "icon": "🍝"
+  },
+  {
+    "id": "linguine",
+    "name": {"en": "Linguine", "nl": "Linguine", "de": "Linguine"},
+    "category_id": "grains",
+    "subcategory_id": "pasta_noodles",
+    "icon": "🍝"
+  },
+  {
+    "id": "couscous",
+    "name": {"en": "Couscous", "nl": "Couscous", "de": "Couscous"},
+    "category_id": "grains",
+    "icon": "🍚"
+  },
+
+  {
+    "id": "whole_milk",
+    "name": {"en": "Whole Milk", "nl": "Volle melk", "de": "Vollmilch"},
+    "category_id": "dairy",
+    "icon": "🥛"
+  },
+  {
+    "id": "skimmed_milk",
+    "name": {"en": "Skimmed Milk", "nl": "Magere melk", "de": "Magermilch"},
+    "category_id": "dairy",
+    "icon": "🥛"
+  },
+  {
+    "id": "cheddar_cheese",
+    "name": {"en": "Cheddar Cheese", "nl": "Cheddar kaas", "de": "Cheddar Käse"},
+    "category_id": "dairy",
+    "icon": "🧀"
+  },
+  {
+    "id": "gouda_cheese",
+    "name": {"en": "Gouda Cheese", "nl": "Goudse kaas", "de": "Gouda Käse"},
+    "category_id": "dairy",
+    "icon": "🧀"
+  },
+  {
+    "id": "mozzarella_cheese",
+    "name": {"en": "Mozzarella Cheese", "nl": "Mozzarella kaas", "de": "Mozzarella Käse"},
+    "category_id": "dairy",
+    "icon": "🧀"
+  },
+  {
+    "id": "feta_cheese",
+    "name": {"en": "Feta Cheese", "nl": "Feta kaas", "de": "Feta Käse"},
+    "category_id": "dairy",
+    "icon": "🧀"
+  },
+  {
+    "id": "brie_cheese",
+    "name": {"en": "Brie Cheese", "nl": "Brie kaas", "de": "Brie Käse"},
+    "category_id": "dairy",
+    "icon": "🧀"
+  },
+  {
+    "id": "natural_yogurt",
+    "name": {"en": "Natural Yogurt", "nl": "Natuurlijke yoghurt", "de": "Naturjoghurt"},
+    "category_id": "dairy",
+    "icon": "🥛"
+  },
+  {
+    "id": "greek_yogurt",
+    "name": {"en": "Greek Yogurt", "nl": "Griekse yoghurt", "de": "Griechischer Joghurt"},
+    "category_id": "dairy",
+    "icon": "🥛"
+  },
+  {
+    "id": "flavored_yogurt",
+    "name": {"en": "Flavored Yogurt", "nl": "Yoghurt met smaak", "de": "Aromatisierter Joghurt"},
+    "category_id": "dairy",
+    "icon": "🥛"
+  },
+  {
+    "id": "butter",
+    "name": {"en": "Butter", "nl": "Boter", "de": "Butter"},
+    "category_id": "dairy",
+    "icon": "🧈"
+  },
+  {
+    "id": "cream",
+    "name": {"en": "Cream", "nl": "Room", "de": "Sahne"},
+    "category_id": "dairy",
+    "icon": "🥛"
+  },
+  {
+    "id": "cottage_cheese",
+    "name": {"en": "Cottage Cheese", "nl": "Hüttenkäse", "de": "Hüttenkäse"},
+    "category_id": "dairy",
+    "icon": "🧀"
+  },
+  {
+    "id": "sour_cream",
+    "name": {"en": "Sour Cream", "nl": "Zure room", "de": "Sauerrahm"},
+    "category_id": "dairy",
+    "icon": "🥛"
+  },
+  {
+    "id": "cream_cheese",
+    "name": {"en": "Cream Cheese", "nl": "Roomkaas", "de": "Frischkäse"},
+    "category_id": "dairy",
+    "icon": "🧀"
+  },
+  {
+    "id": "eggs",
+    "name": {"en": "Eggs", "nl": "Eieren", "de": "Eier"},
+    "category_id": "dairy",
+    "icon": "🥚"
+  },
+
+  {
+    "id": "chicken_breast",
+    "name": {"en": "Chicken Breast", "nl": "Kipfilet", "de": "Hähnchenbrust"},
+    "category_id": "meat_fish",
+    "icon": "🍗"
+  },
+  {
+    "id": "minced_beef",
+    "name": {"en": "Minced Beef", "nl": "Rundergehakt", "de": "Hackfleisch"},
+    "category_id": "meat_fish",
+    "icon": "🥩"
+  },
+  {
+    "id": "pork_chops",
+    "name": {"en": "Pork Chops", "nl": "Varkenskoteletten", "de": "Schweinekoteletts"},
+    "category_id": "meat_fish",
+    "icon": "🥩"
+  },
+  {
+    "id": "bacon",
+    "name": {"en": "Bacon", "nl": "Spek", "de": "Speck"},
+    "category_id": "meat_fish",
+    "icon": "🥓"
+  },
+  {
+    "id": "sausages",
+    "name": {"en": "Sausages", "nl": "Worsten", "de": "Würste"},
+    "category_id": "meat_fish",
+    "icon": "🌭"
+  },
+  {
+    "id": "salmon_fillet",
+    "name": {"en": "Salmon Fillet", "nl": "Zalmmoot", "de": "Lachsfilet"},
+    "category_id": "meat_fish",
+    "icon": "🐟"
+  },
+  {
+    "id": "tuna",
+    "name": {"en": "Tuna", "nl": "Tonijn", "de": "Thunfisch"},
+    "category_id": "meat_fish",
+    "icon": "🐟"
+  },
+  {
+    "id": "cod",
+    "name": {"en": "Cod", "nl": "Kabeljauw", "de": "Kabeljau"},
+    "category_id": "meat_fish",
+    "icon": "🐟"
+  },
+  {
+    "id": "shrimp",
+    "name": {"en": "Shrimp", "nl": "Garnalen", "de": "Garnelen"},
+    "category_id": "meat_fish",
+    "icon": "🍤"
+  },
+  {
+    "id": "turkey",
+    "name": {"en": "Turkey", "nl": "Kalkoen", "de": "Truthahn"},
+    "category_id": "meat_fish",
+    "icon": "🍗"
+  },
+  {
+    "id": "ham",
+    "name": {"en": "Ham", "nl": "Ham", "de": "Schinken"},
+    "category_id": "meat_fish",
+    "icon": "🍖"
+  },
+  {
+    "id": "meatballs",
+    "name": {"en": "Meatballs", "nl": "Gehaktballetjes", "de": "Fleischklößchen"},
+    "category_id": "meat_fish",
+    "icon": "🍡"
+  },
+  {
+    "id": "duck",
+    "name": {"en": "Duck", "nl": "Eend", "de": "Ente"},
+    "category_id": "meat_fish",
+    "icon": "🦆"
+  },
+  {
+    "id": "lamb_chops",
+    "name": {"en": "Lamb Chops", "nl": "Lamskoteletten", "de": "Lammkoteletts"},
+    "category_id": "meat_fish",
+    "icon": "🥩"
+  },
+  {
+    "id": "crab",
+    "name": {"en": "Crab", "nl": "Krab", "de": "Krabbe"},
+    "category_id": "meat_fish",
+    "icon": "🦀"
+  },
+
+  {
+    "id": "frozen_pizza",
+    "name": {"en": "Frozen Pizza", "nl": "Diepvriespizza", "de": "Tiefkühlpizza"},
+    "category_id": "frozen_food",
+    "icon": "🍕"
+  },
+  {
+    "id": "frozen_peas",
+    "name": {"en": "Frozen Peas", "nl": "Diepvrieserwten", "de": "Tiefkühlerbsen"},
+    "category_id": "frozen_food",
+    "icon": "❄️"
+  },
+  {
+    "id": "frozen_mixed_vegetables",
+    "name": {"en": "Frozen Mixed Vegetables", "nl": "Diepvriesgroentenmix", "de": "Tiefkühlgemüse"},
+    "category_id": "frozen_food",
+    "icon": "❄️"
+  },
+  {
+    "id": "ice_cream",
+    "name": {"en": "Ice Cream", "nl": "IJs", "de": "Eis"},
+    "category_id": "frozen_food",
+    "icon": "🍨"
+  },
+  {
+    "id": "frozen_berries",
+    "name": {"en": "Frozen Berries", "nl": "Diepvriesbessen", "de": "Tiefkühlbeeren"},
+    "category_id": "frozen_food",
+    "icon": "❄️"
+  },
+  {
+    "id": "frozen_fries",
+    "name": {"en": "Frozen Fries", "nl": "Diepvriesfriet", "de": "Tiefkühlpommes"},
+    "category_id": "frozen_food",
+    "icon": "🍟"
+  },
+  {
+    "id": "frozen_meatballs",
+    "name": {"en": "Frozen Meatballs", "nl": "Diepvriesgehaktballetjes", "de": "Tiefkühlfleischklößchen"},
+    "category_id": "frozen_food",
+    "icon": "❄️"
+  },
+  {
+    "id": "frozen_dumplings",
+    "name": {"en": "Frozen Dumplings", "nl": "Diepvriesdumplings", "de": "Tiefkühldumplings"},
+    "category_id": "frozen_food",
+    "icon": "❄️"
+  },
+  {
+    "id": "frozen_fish_sticks",
+    "name": {"en": "Frozen Fish Sticks", "nl": "Diepvriesvissticks", "de": "Tiefkühlfischstäbchen"},
+    "category_id": "frozen_food",
+    "icon": "❄️"
+  },
+  {
+    "id": "frozen_spinach",
+    "name": {"en": "Frozen Spinach", "nl": "Diepvriesspinazie", "de": "Tiefkühlspinat"},
+    "category_id": "frozen_food",
+    "icon": "❄️"
+  },
+  {
+    "id": "frozen_burgers",
+    "name": {"en": "Frozen Burgers", "nl": "Diepvriesburgers", "de": "Tiefkühlburger"},
+    "category_id": "frozen_food",
+    "icon": "❄️"
+  },
+  {
+    "id": "frozen_green_beans",
+    "name": {"en": "Frozen Green Beans", "nl": "Diepvriesprinsessenboontjes", "de": "Tiefkühlgrüne Bohnen"},
+    "category_id": "frozen_food",
+    "icon": "❄️"
+  },
+  {
+    "id": "frozen_strawberries",
+    "name": {"en": "Frozen Strawberries", "nl": "Diepvriesaardbeien", "de": "Tiefkühlerdbeeren"},
+    "category_id": "frozen_food",
+    "icon": "❄️"
+  },
+
+  {
+    "id": "cola",
+    "name": {"en": "Coca Cola", "nl": "Coca Cola", "de": "Coca Cola"},
+    "category_id": "drinks",
+    "subcategory_id": "soft_drinks",
+    "icon": "🥤"
+  },
+  {
+    "id": "lemonade",
+    "name": {"en": "Lemonade", "nl": "Limonade", "de": "Limonade"},
+    "category_id": "drinks",
+    "subcategory_id": "soft_drinks",
+    "icon": "🥤"
+  },
+  {
+    "id": "orange_soda",
+    "name": {"en": "Fanta", "nl": "Fanta", "de": "Fanta"},
+    "category_id": "drinks",
+    "subcategory_id": "soft_drinks",
+    "icon": "🥤"
+  },
+  {
+    "id": "tonic_water",
+    "name": {"en": "Tonic Water", "nl": "Tonic water", "de": "Tonic Water"},
+    "category_id": "drinks",
+    "subcategory_id": "soft_drinks",
+    "icon": "🥤"
+  },
+  {
+    "id": "sparkling_water",
+    "name": {"en": "Sparkling Water", "nl": "Bruiswater", "de": "Sprudelwasser"},
+    "category_id": "drinks",
+    "icon": "💧"
+  },
+  {
+    "id": "iced_tea",
+    "name": {"en": "Ice Tea", "nl": "IJsthee", "de": "Eistee"},
+    "category_id": "drinks",
+    "subcategory_id": "soft_drinks",
+    "icon": "🧊"
+  },
+  {
+    "id": "ginger_ale",
+    "name": {"en": "Ginger Ale", "nl": "Ginger Ale", "de": "Ginger Ale"},
+    "category_id": "drinks",
+    "subcategory_id": "soft_drinks",
+    "icon": "🥤"
+  },
+  {
+    "id": "energy_drink",
+    "name": {"en": "Energy Drink", "nl": "Energiedrank", "de": "Energy Drink"},
+    "category_id": "drinks",
+    "subcategory_id": "soft_drinks",
+    "icon": "⚡"
+  },
+  {
+    "id": "coffee",
+    "name": {"en": "Coffee", "nl": "Koffie", "de": "Kaffee"},
+    "category_id": "drinks",
+    "subcategory_id": "herbal_coffee",
+    "icon": "☕"
+  },
+  {
+    "id": "black_tea",
+    "name": {"en": "Black Tea", "nl": "Zwarte thee", "de": "Schwarzer Tee"},
+    "category_id": "drinks",
+    "subcategory_id": "herbal_coffee",
+    "icon": "🍵"
+  },
+  {
+    "id": "green_tea",
+    "name": {"en": "Green Tea", "nl": "Groene thee", "de": "Grüner Tee"},
+    "category_id": "drinks",
+    "subcategory_id": "herbal_coffee",
+    "icon": "🍵"
+  },
+  {
+    "id": "herbal_tea",
+    "name": {"en": "Herbal Tea", "nl": "Kruidenthee", "de": "Kräutertee"},
+    "category_id": "drinks",
+    "subcategory_id": "herbal_coffee",
+    "icon": "🍵"
+  },
+  {
+    "id": "red_wine",
+    "name": {"en": "Red Wine", "nl": "Rode wijn", "de": "Rotwein"},
+    "category_id": "drinks",
+    "subcategory_id": "alcoholic_drinks",
+    "icon": "🍷"
+  },
+  {
+    "id": "white_wine",
+    "name": {"en": "White Wine", "nl": "Witte wijn", "de": "Weißwein"},
+    "category_id": "drinks",
+    "subcategory_id": "alcoholic_drinks",
+    "icon": "🍷"
+  },
+  {
+    "id": "beer",
+    "name": {"en": "Beer", "nl": "Bier", "de": "Bier"},
+    "category_id": "drinks",
+    "subcategory_id": "alcoholic_drinks",
+    "icon": "🍺"
+  },
+  {
+    "id": "champagne",
+    "name": {"en": "Champagne", "nl": "Champagne", "de": "Champagner"},
+    "category_id": "drinks",
+    "subcategory_id": "alcoholic_drinks",
+    "icon": "🍾"
+  },
+  {
+    "id": "whiskey",
+    "name": {"en": "Whiskey", "nl": "Whiskey", "de": "Whisky"},
+    "category_id": "drinks",
+    "subcategory_id": "alcoholic_drinks",
+    "icon": "🥃"
+  },
+  {
+    "id": "vodka",
+    "name": {"en": "Vodka", "nl": "Vodka", "de": "Wodka"},
+    "category_id": "drinks",
+    "subcategory_id": "alcoholic_drinks",
+    "icon": "🥃"
+  },
+  {
+    "id": "rum",
+    "name": {"en": "Rum", "nl": "Rum", "de": "Rum"},
+    "category_id": "drinks",
+    "subcategory_id": "alcoholic_drinks",
+    "icon": "🥃"
+  },
+  {
+    "id": "gin",
+    "name": {"en": "Gin", "nl": "Gin", "de": "Gin"},
+    "category_id": "drinks",
+    "subcategory_id": "alcoholic_drinks",
+    "icon": "🥃"
+  },
+
+  {
+    "id": "salt",
+    "name": {"en": "Salt", "nl": "Zout", "de": "Salz"},
+    "category_id": "spices_condiments",
+    "icon": "🧂"
+  },
+  {
+    "id": "pepper",
+    "name": {"en": "Pepper", "nl": "Peper", "de": "Pfeffer"},
+    "category_id": "spices_condiments",
+    "icon": "🧂"
+  },
+  {
+    "id": "paprika_powder",
+    "name": {"en": "Paprika Powder", "nl": "Paprikapoeder", "de": "Paprikapulver"},
+    "category_id": "spices_condiments",
+    "icon": "🧂"
+  },
+  {
+    "id": "cinnamon",
+    "name": {"en": "Cinnamon", "nl": "Kaneel", "de": "Zimt"},
+    "category_id": "spices_condiments",
+    "icon": "🧂"
+  },
+  {
+    "id": "nutmeg",
+    "name": {"en": "Nutmeg", "nl": "Nootmuskaat", "de": "Muskatnuss"},
+    "category_id": "spices_condiments",
+    "icon": "🧂"
+  },
+  {
+    "id": "turmeric",
+    "name": {"en": "Turmeric", "nl": "Kurkuma", "de": "Kurkuma"},
+    "category_id": "spices_condiments",
+    "icon": "🧂"
+  },
+  {
+    "id": "cumin",
+    "name": {"en": "Cumin", "nl": "Komijn", "de": "Kreuzkümmel"},
+    "category_id": "spices_condiments",
+    "icon": "🧂"
+  },
+  {
+    "id": "oregano",
+    "name": {"en": "Oregano", "nl": "Oregano", "de": "Oregano"},
+    "category_id": "spices_condiments",
+    "icon": "🌿"
+  },
+  {
+    "id": "basil",
+    "name": {"en": "Basil", "nl": "Basilicum", "de": "Basilikum"},
+    "category_id": "spices_condiments",
+    "icon": "🌿"
+  },
+  {
+    "id": "rosemary",
+    "name": {"en": "Rosemary", "nl": "Rozemarijn", "de": "Rosmarin"},
+    "category_id": "spices_condiments",
+    "icon": "🌿"
+  },
+  {
+    "id": "thyme",
+    "name": {"en": "Thyme", "nl": "Tijm", "de": "Thymian"},
+    "category_id": "spices_condiments",
+    "icon": "🌿"
+  },
+
+  {
+    "id": "mayonnaise",
+    "name": {"en": "Mayonnaise", "nl": "Mayonaise", "de": "Mayonnaise"},
+    "category_id": "spices_condiments",
+    "icon": "🥫"
+  },
+  {
+    "id": "mustard",
+    "name": {"en": "Mustard", "nl": "Mosterd", "de": "Senf"},
+    "category_id": "spices_condiments",
+    "icon": "🥫"
+  },
+  {
+    "id": "ketchup",
+    "name": {"en": "Ketchup", "nl": "Ketchup", "de": "Ketchup"},
+    "category_id": "spices_condiments",
+    "icon": "🥫"
+  },
+  {
+    "id": "peanut_butter",
+    "name": {"en": "Peanut Butter", "nl": "Pindakaas", "de": "Erdnussbutter"},
+    "category_id": "spreads",
+    "icon": "🥫"
+  },
+  {
+    "id": "jam",
+    "name": {"en": "Jam", "nl": "Jam", "de": "Marmelade"},
+    "category_id": "spreads",
+    "icon": "🥫"
+  },
+  {
+    "id": "honey",
+    "name": {"en": "Honey", "nl": "Honing", "de": "Honig"},
+    "category_id": "spreads",
+    "icon": "🍯"
+  },
+  {
+    "id": "chocolate_spread",
+    "name": {"en": "Chocolate Spread", "nl": "Chocoladepasta", "de": "Schokocreme"},
+    "category_id": "spreads",
+    "icon": "🍫"
+  },
+  {
+    "id": "pesto",
+    "name": {"en": "Pesto", "nl": "Pesto", "de": "Pesto"},
+    "category_id": "spreads",
+    "icon": "🥫"
+  },
+
+  {
+    "id": "rice",
+    "name": {"en": "Rice", "nl": "Rijst", "de": "Reis"},
+    "category_id": "grains",
+    "icon": "🍚"
+  },
+  {
+    "id": "flour",
+    "name": {"en": "Flour", "nl": "Bloem", "de": "Mehl"},
+    "category_id": "pantry",
+    "icon": "🌾"
+  },
+  {
+    "id": "sugar",
+    "name": {"en": "Sugar", "nl": "Suiker", "de": "Zucker"},
+    "category_id": "pantry",
+    "icon": "🍚"
+  },
+  {
+    "id": "olive_oil",
+    "name": {"en": "Olive Oil", "nl": "Olijfolie", "de": "Olivenöl"},
+    "category_id": "pantry",
+    "icon": "🫒"
+  },
+  {
+    "id": "vegetable_oil",
+    "name": {"en": "Vegetable Oil", "nl": "Plantaardige olie", "de": "Pflanzenöl"},
+    "category_id": "pantry",
+    "icon": "🛢️"
+  },
+  {
+    "id": "vinegar",
+    "name": {"en": "Vinegar", "nl": "Azijn", "de": "Essig"},
+    "category_id": "pantry",
+    "icon": "🧴"
+  },
+  {
+    "id": "baking_powder",
+    "name": {"en": "Baking Powder", "nl": "Bakpoeder", "de": "Backpulver"},
+    "category_id": "pantry",
+    "icon": "🧂"
+  },
+  {
+    "id": "baking_soda",
+    "name": {"en": "Baking Soda", "nl": "Zuiveringszout", "de": "Natron"},
+    "category_id": "pantry",
+    "icon": "🧂"
+  },
+  {
+    "id": "yeast",
+    "name": {"en": "Yeast", "nl": "Gist", "de": "Hefe"},
+    "category_id": "pantry",
+    "icon": "🍞"
+  }
+]
