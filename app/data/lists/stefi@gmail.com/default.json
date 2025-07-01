@@ -1,0 +1,12 @@
+{
+    "id": "default",
+    "name": "default",
+    "owner": "stefi@gmail.com",
+    "shared_with": [
+        "stefaan@gmail.com"
+    ],
+    "items": {
+        "Chicken Breast": 1,
+        "Banana": 1
+    }
+}
