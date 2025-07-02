@@ -12,10 +12,6 @@ ITEMS_FILE = DATA_DIR / "default_items.json"
 DATA_DIR.mkdir(parents=True, exist_ok=True)
 LISTS_DIR.mkdir(parents=True, exist_ok=True)
 
-def save_users(users: dict) -> None:
-    with USERS_FILE.open("w", encoding="utf-8") as f:
-        json.dump(users, f, indent=2)
-
 def save_session(email: str) -> None:
     with SESSION_FILE.open("w", encoding="utf-8") as f:
         json.dump({"email": email}, f)
